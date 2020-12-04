@@ -103,7 +103,6 @@ void messageReceived(String &topic, String &payload){
 
 void setup() {
   pinMode(ledPin, OUTPUT);
-  Serial.begin(9600);
   pinMode(buttonPin, INPUT_PULLUP);
  Serial.begin(115200);
  u8g2.begin();
